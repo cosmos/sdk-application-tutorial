@@ -51,10 +51,10 @@ Once you have your application ready, we will be using Starport to assist us wit
 Start off by scaffolding your application using the following command.
 
 ```sh
-starport app github.com/user/pofe
+starport scaffold chain github.com/user/pofe
 ```
 
-Once this is done, you should have a folder called `pofe` with your boilerplate Stargate application.
+After the scaffold command is run, you should have a folder called `pofe` with your boilerplate Stargate application.
 
 ## Directory Structure
 

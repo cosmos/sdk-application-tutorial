@@ -33,10 +33,10 @@ Get started! The first step is to [install the `starport`](https://github.com/te
 After `starport` is installed, use it to create the initial app structure inside a directory named `blog`:
 
 ```
-starport app github.com/example/blog
+starport scaffold chain github.com/example/blog
 ```
 
-One of the main features of Starport is code generation. The command above has generated a directory structure with a working blockchain application. Starport can also add data types to your app with `starport type` command. To see it in action, follow the poll application tutorial. In this guide, however, you create those files manually to understand how it all works under the hood.
+One of the main features of Starport is code generation. The preceding command has generated a directory structure with a working blockchain application. You can also add data types to your app with the `starport type` command. To see code generation in action, follow the poll application tutorial. In this guide, however, we'll create those files manually to learn how Starport code generation works.
 
 ## Overview
 
@@ -432,10 +432,10 @@ Now you are ready to build and start the app and create some posts.
 To launch the application run:
 
 ```
-starport serve
+starport chain serve
 ```
 
-This command installs dependencies, builds and initializes the app, and runs servers. You can also do it manually:
+This command installs dependencies, builds and initializes the app, and runs servers. You can also do these tasks manually:
 
 First, create a `Makefile` in your `/blog` root directory
 
